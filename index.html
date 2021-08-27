@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BinaryPaint</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<div id="DrawZone">
+
+</div>
+<button onclick="CompileWrapper(0)">Compile</button>
+<br>
+<h1>Compiled Code</h1>
+<pre id="Code"></pre>
+</body>
+</html>
+<script src="js/DrawZone.js"></script>
+<script src="js/Compiler.js"></script>
+<script>
+
+    const CompileWrapper = (lang) => {
+        Compile(lang, zone)
+    }
+
+</script>

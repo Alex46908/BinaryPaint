@@ -1,0 +1,9 @@
+#DrawZone{
+    display: grid;
+    border: 2px solid black;
+}
+
+.cell {
+    width: 15px;
+    height: 15px;
+}
