@@ -1,7 +1,7 @@
 const DrawZoneElement = document.getElementById('DrawZone');
 
-let width = 50;
-let height = 50;
+let width = 25;
+let height = 25;
 let zone = [];
 let feather = 1;
 
@@ -77,5 +77,3 @@ const Click = (cell_id) => {
         zone[Math.floor(cell_id / width - 2)][Math.floor(cell_id - Math.floor(cell_id / width) * width)] = 1;
     }
 };
-
-Generate(height, width);

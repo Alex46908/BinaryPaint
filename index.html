@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+<div style="width: 30%; margin: 5%;" id="CreateDrawZone">
+    <h3>Canvas Settings</h3>
+    <select  id="CanvasSize" class="form-select" aria-label="Default select example">
+        <option selected>Сanvas Size</option>
+        <option value="100x100">100x100</option>
+        <option value="100x50">100x50</option>
+        <option value="50x100">50x100</option>
+        <option value="50x50">50x50</option>
+        <option value="50x25">50x25</option>
+        <option value="25x50">25x50</option>
+        <option value="25x25">25x25</option>
+    </select>
+    <button onclick="DrawZoneGeneraterWrapper()" type="submit" style="margin-top:10px;" class="btn btn-primary">Submit</button>
+</div>
+<div id="content">
 <div style="margin-left: 25px;" id="FeatherSettings">
     <h3>Feather Settings</h3>
     <div class="form-check">
@@ -35,6 +50,7 @@
 <br>
 <h3>Compiled Code</h3>
 <pre id="Code"></pre>
+</div>
 </body>
 </html>
 <script src="js/DrawZone.js"></script>

@@ -1,6 +1,14 @@
+#CreateDrawZone{
+    display: block;
+}
+
 #DrawZone{
     display: grid;
     border: 2px solid black;
+}
+
+#content {
+    display: none;
 }
 
 .cell {
